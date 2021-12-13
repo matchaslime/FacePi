@@ -73,3 +73,15 @@ class FacePi:
         傳入圖片路徑，url 並進行辨識
         '''
         self.detectLocalImage(imagepath)
+
+    def Signin(self):
+        '''
+        刷臉簽到
+        '''
+        imageurl = 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg'
+        imageurl = 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg'
+        self.detectLocalImageUrl(imageurl)
+
+
+if __name__ == '__main__':
+    fire.Fire(FacePi)
