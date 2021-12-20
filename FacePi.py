@@ -20,7 +20,7 @@ class FacePI:
         imageurl = 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg'
         imageurl = 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg'
         classes.ClassFaceAPI.Face().detectImageUrl(imageurl)
-        imagepath = "face4.jpg"
+        imagepath = "Bezos.jpg"
         classes.ClassFaceAPI.Face().detectLocalImage(imagepath)
         
 if __name__ == '__main__':
